@@ -1,5 +1,5 @@
 module "example_droplet" {
   source = "../"
-  name = "example_droplet"
+  name = "example-droplet"
   user_data = "${file("./user-data.yaml")}"
 }
