@@ -1,0 +1,5 @@
+#cloud-config
+users:
+  - name: example
+    groups: sudo
+    shell: /bin/bash
