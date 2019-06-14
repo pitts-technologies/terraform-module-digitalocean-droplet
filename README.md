@@ -18,3 +18,14 @@ A module that allows for deployment of digitalocean droplets with minimal requir
 | user\_data | (Optional) A string of the desired User Data for the Droplet. | string | `""` | no |
 | volume\_ids | (Optional) A list of the IDs of each block storage volume to be attached to the Droplet. | list | `<list>` | no |
 
+## Outputs
+
+| Name | Description |
+|------|-------------|
+| id | The ID of the Droplet |
+| image | The image of the Droplet |
+| ipv4\_address | The IPv4 Address of the Droplet |
+| name | The name of the Droplet |
+| region | The region of the Droplet |
+| status | The status of the Droplet |
+| urn | The uniform resource name of the Droplet |
