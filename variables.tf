@@ -52,7 +52,7 @@ variable "ssh_keys" {
 }
 
 variable "user_data" {
-  description = "(Optional) A string of the desired User Data for the Droplet."
+  description = "(Required) A string of the desired User Data for the Droplet."
   type        = "string"
   default     = ""
 }
